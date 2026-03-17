@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.db
+*.sqlite
+*.sqlite3
+grafana_*.deb
+.env
+.env.*

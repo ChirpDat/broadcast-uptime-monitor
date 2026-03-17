@@ -1,0 +1,6 @@
+station:
+  name: "KLZR"
+  frequency_hz: 91700000
+  sample_rate: 1024000
+  gain: 20.7
+  samples_per_read: 262144

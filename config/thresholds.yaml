@@ -1,0 +1,7 @@
+thresholds:
+  rf_power_min_db: -55.0
+  poll_interval_seconds: 5
+  down_confirm_cycles: 3
+  up_confirm_cycles: 2
+  metrics_port: 9117
+  read_error_sleep_seconds: 3
