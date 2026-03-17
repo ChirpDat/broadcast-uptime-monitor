@@ -13,6 +13,17 @@ In simple terms, it answers two questions:
 - Is the station still on the air?
 - Is the monitor itself healthy?
 
+## Screenshots
+
+### Dashboard
+![Broadcast Monitor Dashboard](docs/screenshots/dashboard-overview.png)
+
+### Station Down Alert
+![Station Down Alert Email](docs/screenshots/station-down-email.png)
+
+### Monitor Fault Alert
+![Monitor Fault Alert Email](docs/screenshots/monitor-fault-email.png)
+
 ## Current working features
 
 ### Dashboard
