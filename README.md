@@ -2,7 +2,7 @@
 
 An SDR-based off-air broadcast monitoring system built on Debian with Prometheus and Grafana.
 
-This project monitors a radio station off-air, exports health and RF metrics to Prometheus, visualizes the station state in Grafana, and sends email alerts when the station appears down or when the monitor itself reports a fault.
+This project monitors a radio station off-air, exports health and RF metrics to Prometheus, visualizes station state in Grafana, and sends email alerts when the station appears down or when the monitor itself reports a fault.
 
 ## Why this project exists
 
@@ -65,8 +65,7 @@ If the monitor itself reports a fault for 30 seconds, Grafana sends an email ale
 This means the monitor cannot see the radio station anymore.
 
 ### Monitor Fault
-This does **not** mean the station is down.  
-It means the thing doing the watching may have a problem, so its readings should be checked carefully.
+This does not mean the station is down. It means the thing doing the watching may have a problem, so its readings should be checked carefully.
 
 ## Project structure
 
