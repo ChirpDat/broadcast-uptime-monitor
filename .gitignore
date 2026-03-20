@@ -10,3 +10,6 @@ __pycache__/
 grafana_*.deb
 .env
 .env.*
+.venv/
+__pycache__/
+*.pyc

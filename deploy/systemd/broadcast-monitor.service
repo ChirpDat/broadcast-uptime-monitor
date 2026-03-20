@@ -1,0 +1,15 @@
+[Unit]
+Description=Broadcast Uptime Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=travisr
+WorkingDirectory=/home/travisr/broadcast-uptime-monitor
+Environment=PATH=/home/travisr/broadcast-uptime-monitor/.venv/bin:/usr/bin:/bin
+ExecStart=/home/travisr/broadcast-uptime-monitor/.venv/bin/python /home/travisr/broadcast-uptime-monitor/scripts/monitor.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
